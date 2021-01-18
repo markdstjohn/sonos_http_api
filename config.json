@@ -1,0 +1,13 @@
+{
+  "name": "Sonos HTTP API",
+  "version": "1",
+  "slug": "node_sonos_http_api",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "Sonos HTTP API bridge (https://github.com/jishi/node-sonos-http-api)",
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": { "5005/tcp": 5005 },
+  "host_network": "yes"
+}
